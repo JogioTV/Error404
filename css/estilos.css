@@ -43,6 +43,12 @@ body {
     position: absolute;
     right: calc(50% - 3.2em);
 }
+.contenedor .header .img:hover{
+    width: 7em;
+    height: 7em;
+    right: calc(50% - 3.5em); 
+    transition: all 0.2s ease-out;
+}
 .img:hover > #CirculoFondoSVG > path  {
     fill: #0A7CFF;
     box-shadow: 10px 10px 10px;
@@ -62,7 +68,7 @@ body {
     background: #28f;
     color: white;
     grid-area: footer;
-    max-height: 6.25em;
+    height: 6.25em;
 }
 
 @media screen and (max-width: 768px){
